@@ -7,11 +7,13 @@ const Header = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
+                <Link as={`/`} href="/">
                 <img
-                  className="w-8 h-8"
+                  className="w-8 h-8 cursor-pointer"
                   src="https://cdn-eaoki.nitrocdn.com/IpMfDArfOdfAfriedYgHzeIcXKJqfxaG/assets/static/optimized/rev-f0da983/wp-content/uploads/2021/10/Favicon-V1.png"
                   alt="Workflow"
                 />
+                </Link>
               </div>
               <div className="hidden md:block">
                 <div className="flex items-baseline ml-10 space-x-4">
