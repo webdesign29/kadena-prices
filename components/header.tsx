@@ -45,18 +45,14 @@ const Header = () => {
                   </a>
                   </Link>
 
-                  <a
-                    href="#"
-                    className="px-3 py-2 text-sm font-medium rounded-md text-dark hover:bg-gray-700 hover:text-white"
-                  >
-                    Calendar
-                  </a>
+                  <Link as={`/contact-us/`} href="/contact-us/">
                   <a
                     href="#"
                     className="px-3 py-2 text-sm font-medium rounded-md text-dark hover:bg-gray-700 hover:text-white"
                   >
                     Contact us
                   </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -142,12 +138,7 @@ const Header = () => {
             >
               Projects
             </a>
-            <a
-              href="#"
-              className="block px-3 py-2 text-base font-medium rounded-md text-dark hover:bg-gray-700 hover:text-white"
-            >
-              Calendar
-            </a>
+            
             <a
               href="#"
               className="block px-3 py-2 text-base font-medium rounded-md text-dark hover:bg-gray-700 hover:text-white"
