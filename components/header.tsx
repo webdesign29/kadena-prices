@@ -15,26 +15,34 @@ const Header = () => {
               </div>
               <div className="hidden md:block">
                 <div className="flex items-baseline ml-10 space-x-4">
-                  {/* Current: "bg-gray-900 text-white", Default: "text-dark hover:bg-gray-700 hover:text-white" */}
-                  <a
-                    href="#"
-                    className="px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-md"
-                    aria-current="page"
-                  >
-                    Charts
-                  </a>
+                  {/* Current: "bg-gray-900 text-white", Default: "text-dark hover:bg-gray-700 hover:text-white" */}            
+                  <Link as={`/tokens/`} href="/tokens/">
                   <a
                     href="#"
                     className="px-3 py-2 text-sm font-medium rounded-md text-dark hover:bg-gray-700 hover:text-white"
                   >
                     Tokens
                   </a>
+                  </Link>
+
+                  <Link as={`/projects/`} href="/projects/">
                   <a
                     href="#"
                     className="px-3 py-2 text-sm font-medium rounded-md text-dark hover:bg-gray-700 hover:text-white"
                   >
                     Projects
                   </a>
+                  </Link>
+
+                  <Link as={`/posts/`} href="/posts/">
+                  <a
+                    className="px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-md"
+                    aria-current="page"
+                  >
+                    Blog
+                  </a>
+                  </Link>
+
                   <a
                     href="#"
                     className="px-3 py-2 text-sm font-medium rounded-md text-dark hover:bg-gray-700 hover:text-white"
