@@ -25,7 +25,7 @@ const Index = ({ allProjects }: Props) => {
             <h2 className="mt-4 mb-8 text-5xl font-bold leading-tight tracking-tighter md:text-7xl">
                 Projects
             </h2>
-            {allProjects.length > 0 && <MoreStories posts={allProjects} />}
+            {allProjects.length > 0 && <MoreStories projects={allProjects} />}
         </Container>
       </Layout>
     </>

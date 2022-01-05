@@ -25,7 +25,7 @@ const Index = ({ allTokens }: Props) => {
             <h2 className="mt-4 mb-8 text-5xl font-bold leading-tight tracking-tighter md:text-7xl">
                 Tokens
             </h2>
-            {allTokens.length > 0 && <MoreStories posts={allTokens} />}
+            {allTokens.length > 0 && <MoreStories tokens={allTokens} />}
         </Container>
       </Layout>
     </>
